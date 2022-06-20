@@ -68,7 +68,7 @@ export default function TodoDetails({ todoList }: IProps) {
   const hideOrShowToast = () => {
     setTimeout(() => {
       setShowToast(false);
-      navigate("/");
+      navigate("/todo-list");
     }, 3000);
   };
 
@@ -101,7 +101,7 @@ export default function TodoDetails({ todoList }: IProps) {
   };
 
   return (
-    <div className="h-5/6 w-1/4 bg-white p-3 rounded-xl shadow-lg">
+    <div className="m-5 w-96 h-[85vh] bg-white p-3 rounded-xl shadow-lg">
       <div className="text-xl text-black font-bold my-3 flex justify-between items-center">
         <div className="flex gap-3 items-center">
           Task Details

@@ -16,7 +16,7 @@ export default function TodoList({ todoList, isLoading }: IProps) {
   return (
     <>
       {
-        <div className="h-5/6 w-1/4 bg-white p-3 rounded-xl shadow-lg">
+        <div className="m-5 w-96 h-[85vh] bg-white p-3 rounded-xl shadow-lg">
           <div className="text-xl text-black font-bold my-3 flex justify-between items-center">
             To Do Task
             <ReminderSvg />
@@ -68,7 +68,7 @@ export default function TodoList({ todoList, isLoading }: IProps) {
                 <div
                   className=" bg-blue-600 h-10 w-10 rounded-full text-3xl flex justify-center items-center text-white cursor-pointer hover:bg-white hover: border-2 hover:text-black hover:transition-all"
                   onClick={() => {
-                    navigate("/add-todo");
+                    navigate("/todo-list/add-todo");
                   }}
                 >
                   <span className="-mt-2">+</span>

@@ -14,7 +14,7 @@ export default function Card({ completed, title, id }: IProps) {
     // This is the card component which takes completed, title and id values to show the card. And it will navigate to todo details page when the card is clicked.
     <div
       className="todo-list-card"
-      onClick={() => navigate(`todo-details/${id}`)}
+      onClick={() => navigate(`todo-list/todo-details/${id}`)}
     >
       <TiTick
         className={`text-xl ${

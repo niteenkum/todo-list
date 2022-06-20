@@ -57,7 +57,7 @@ export default function AddTodo({ todoList }: IProps) {
     /**
      * @description - This is the component to add title in todo list.
      */
-    <div className="h-5/6 w-1/4 bg-white p-3 rounded-xl shadow-lg">
+    <div className="m-5 w-96 h-[85vh] bg-white p-3 rounded-xl shadow-lg">
       {/* Showing toast in case of Api call. */}
       {showToast && <Toast message={message} success={success} />}
       <div className="text-xl text-black font-bold my-3 flex justify-between">
