@@ -88,3 +88,23 @@ Start the server
   yarn start
 ```
 
+# Folder Structure
+
+#### Component
+Contain all the components used in Project.
+
+#### Pages
+Contain All the pages used in project like Todo List which is homepage,
+todo update page, add new todo page.
+
+#### Hooks
+
+Contain useApiCall.ts Hook to call all the requests.
+
+#### utils
+Contain constant.ts file which contain baseurl 
+
+
+
+
+
