@@ -1,0 +1,20 @@
+// This CSS is added to the component's style.scss file. And it is used in the component folder for styling all the components.
+
+// This style is applied on to the Card Component.
+.todo-list-card {
+  @apply h-12 w-full bg-white shadow-md rounded-lg p-3 flex items-center gap-3 mt-2;
+  @apply hover:bg-slate-100 cursor-pointer;
+}
+
+// This class is applied on to the Loader component when the loader is not circle.
+.loader {
+  @apply h-7 w-7 border-4 border-gray-300 border-t-4 animate-bounce;
+  .loader-inner {
+    @apply -mt-1 -ml-1 h-8 w-8 border-4 border-t-blue-700 border-r-red-500 border-l-yellow-500 border-b-green-500  animate-spin;
+  }
+}
+
+// This class is applied on to the Loader component when the loader is circle.
+.circle-loader {
+  @apply h-7 w-7 border-2 border-gray-400 animate-spin border-t-blue-500 rounded-full;
+}
