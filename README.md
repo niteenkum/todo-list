@@ -43,4 +43,23 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Folder Structure
+
+#### Component
+Contain all the components used in Project.
+
+#### Pages
+Contain All the pages used in project like Todo List which is homepage,
+todo update page, add new todo page.
+
+#### Hooks
+
+Contain useApiCall.ts Hook to call all the requests.
+
+#### utils
+Contain constant.ts file which contain baseurl 
+
+
+
+
+
