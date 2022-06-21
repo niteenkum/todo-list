@@ -32,7 +32,7 @@ function App() {
       <Route path="/" element={<TodoList todoList={todoList} isLoading={isLoading}/>} />
       <Route path="/todo-list" element={<TodoList todoList={todoList} isLoading={isLoading}/>} />
       <Route path="/todo-list/add-todo" element = {<AddTodo todoList={todoList}/>} />
-      <Route path="/todo-list/todo-details/:id" element = {<TodoDetails todoList={todoList}/>} />
+      <Route path="/todo-details/:id" element = {<TodoDetails todoList={todoList}/>} />
     </Routes>
   </BrowserRouter>
     
